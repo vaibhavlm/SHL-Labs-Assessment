@@ -1,0 +1,26 @@
+{
+  "name": "service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node ./bin/www",
+    "dev": "nodemon --watch \"**/*.js\" app.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.20",
+    "@types/node": "^20.8.7",
+    "axios": "^1.5.1",
+    "chatgpt": "^5.2.5",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^7.6.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.0.1",
+    "openai": "^4.12.4",
+    "typescript": "^5.2.2"
+  }
+}
